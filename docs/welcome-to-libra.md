@@ -35,9 +35,9 @@ Move makes the development of critical transaction code easier. It enables the s
 Refer to [Getting Started With Move](move-overview.md) for further information.
 
 
-## The Libra Ecosystem
+## Libra生态
 
-The Libra ecosystem consists of different types of entities:
+组成Libra生态的几个部分:
 
 * [Clients](#clients)
 * [Validator Nodes](#validator-nodes)
@@ -45,7 +45,7 @@ The Libra ecosystem consists of different types of entities:
 
 ### Clients
 
-A Libra client:
+Libra 客户端:
 
 * Is a piece of software that has the capability to interact with the Libra Blockchain. 
 * Can be run by the end user or on behalf of the end user (for example, for a custodial client). 
@@ -56,7 +56,7 @@ Libra Core contains a client, which can submit transactions to the testnet. [My 
 
 ### Validator Nodes  
 
-[Validator nodes](reference/glossary.md#validator-node) are entities in the Libra ecosystem that collectively decide which transactions will be added to the Libra Blockchain. The validators use a [consensus protocol](reference/glossary.md#consensus-protocol) so that they can tolerate the presence of malicious validators. A validator node maintains the history of all the transactions on the blockchain. Internally, a validator node needs to keep the current state to execute transactions and to calculate the next state. We will learn more about the components of a validator node in [Life of a Transaction](life-of-a-transaction).
+[Validator nodes](reference/glossary.md#validator-node)  是Libra生态构成部分，它们共同决定哪些交易能够上链。 The validators use a [consensus protocol](reference/glossary.md#consensus-protocol) so that they can tolerate the presence of malicious validators. A validator node maintains the history of all the transactions on the blockchain. Internally, a validator node needs to keep the current state to execute transactions and to calculate the next state. We will learn more about the components of a validator node in [Life of a Transaction](life-of-a-transaction).
 
 The testnet is a publicly available set of validator nodes, which can be used to try the system. You can also run validator nodes yourself using Libra Core.
 
@@ -69,7 +69,7 @@ The Libra ecosystem supports a wide variety of developers, ranging from people w
 * Write smart contracts to execute on the blockchain.
 * Contribute to the Libra Blockchain software.
 
-This site is intended for developers.
+该站点专为开发者所建.
 
 ## Reference
 
